@@ -11,7 +11,13 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Huddle landing page with curved sections</title>
   </head>
@@ -32,22 +38,16 @@
 
         <button>Get Started For Free</button>
 
-        <img
-          src="./images/screen-mockups.svg"
-          alt="Screen Mockups"
-        />
+        <img src="./images/screen-mockups.svg" alt="Screen Mockups" />
 
         <div>
-          <img
-            src="./images/icon-communities.svg"
-            alt="Communities"
-          />
+          <img src="./images/icon-communities.svg" alt="Communities" />
           <span>1.4k+</span>
           <span> Communities Formed </span>
         </div>
 
         <div>
-          <img src="./images/icon-messages.svg" alt="Messages"/>
+          <img src="./images/icon-messages.svg" alt="Messages" />
           <span>2.7m+</span>
           <span> Messages Sent </span>
         </div>
@@ -91,10 +91,7 @@
       <section>
         <img src="./images/bg-section-top-mobile-2.svg" alt="Screen Divide" />
         <div>
-          <img
-            src="./images/illustration-your-users.svg"
-            alt="Your Users"
-          />
+          <img src="./images/illustration-your-users.svg" alt="Your Users" />
           <h2>Your Users</h2>
           <p>
             It takes no time at all to integrate Huddle with your app's
@@ -134,13 +131,25 @@
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla
           quam, hendrerit lacinia vestibulum a, ultrices quis sem.
         </p>
-        <span>
+        <div>
           <img src="./images/icon-phone.svg" alt="Phone" />
           Phone: +1-543-123-4567
-        </span>
-        <span>
+        </div>
+        <div>
           <img src="./images/icon-email.svg" alt="Email" />
           example@huddle.com
+        </div>
+      </div>
+
+      <div class="social-links">
+        <span class="social-links__icon">
+          <i class="fab fa-facebook-f"></i>
+        </span>
+        <span class="social-links__icon">
+          <i class="fab fa-twitter"></i>
+        </span>
+        <span class="social-links__icon">
+          <i class="fab fa-instagram"></i>
         </span>
       </div>
 
@@ -154,5 +163,16 @@
         >.
       </div>
     </footer>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/brands.min.js"
+      integrity="sha512-vefaKmSAX3XohXhN50vLfnK12TPIO+4uRpHjXVkX726CqbicEiAQGRzsMTE+EpLkBk4noUcUYu6AQ5af2vfRLA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/fontawesome.min.js"
+    ></script>
   </body>
 </html>
