@@ -1,4 +1,12 @@
-.attribution {
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+.navbar__logo {
+  max-width: 120px;
+}
+
+.button .attribution {
   font-size: 11px;
   text-align: center;
 }
